@@ -1,0 +1,90 @@
+.formulario {
+    margin: 1rem;
+}
+
+.formulario .container {
+    padding: 1rem;
+   
+}
+
+.formulario .container .input-form,
+.formulario .container .radios-form,
+.formulario .container .checks-form {
+    margin: 1rem 0;
+}
+
+.formulario .container .input-form input {
+    width: 100%;
+    padding: .8rem;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+}
+
+/*.formulario .container .input-form small {
+    color: red;
+}
+*/
+.formulario .container label {
+    font-weight: bold;
+}
+
+.formulario .container .radios-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario .container .checks-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .container .check-item {
+    margin: .5rem 0;
+}
+
+.formulario .container .containers-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.formulario .container .containers-btn button {
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.formulario .container .containers-btn .sendbtn {
+    margin-bottom: 16px;
+    color: var(--light-grey);
+    width: 100%;
+    background-color: var(--light-blue);
+}
+
+.formulario .container .containers-btn .sendbtn:hover {
+    background-color: #0321BA;
+    border:2px solid var(--light-grey)
+}
+
+.formulario .container .containers-btn .borrarbtn {
+    background-color: var(--dark-grey);
+    color: var(--light-blue);
+}
+
+/* media querys */
+/* tablet */
+@media (min-width: 480px) {
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+    .formulario .container {
+        width: 75%;
+    }
+}
+
+/* desktop */
+@media (min-width: 769px) {
+    .formulario .container {
+        width: 60%;
+    }
+}
