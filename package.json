@@ -13,10 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuliaFabris/MercadoLiebreFormulariosHTMLyCSS.git/"
+    "url": "git+https://github.com/JuliaFabris/MercadoLiebreFormulariosHTMLyCSS.git.git"
   },
   "bugs": {
     "url": "https://github.com/JuliaFabris/MercadoLiebreFormulariosHTMLyCSS.git//issues"
   },
-  "homepage": "https://github.com/JuliaFabris/MercadoLiebreFormulariosHTMLyCSS.git/"
+  "homepage": "https://github.com/JuliaFabris/MercadoLiebreFormulariosHTMLyCSS.git/",
+  "keywords": [
+    "mercadoliebre",
+    "HTML",
+    "CSS",
+    "NodeJS"
+  ]
 }
